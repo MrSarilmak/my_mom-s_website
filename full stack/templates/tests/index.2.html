@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Главная</title>
+        <link rel="stylesheet" href="/static/css/tests_base.css">
+        <link rel="stylesheet" href="/static/css/index.css">
+    </head>
+    <body>
+        <header>
+            <a class="logo_link" href="/"><img src="/static/img/logo1.png" alt="logo/to index"></a>
+            <a class="btn_link" href="/about_me">обо мне</a>
+            <a class="btn_link" href="/services">услуги</a>
+        </header>
+        <div class="body">
+            <p>1. Информация о психологе: Анна Черных, образование, фото дипломов и сертификатов, стаж.</p>
+            <p>
+                2. Услуги и стоимость: специализация, проблемы, по которым вы консультируете.
+                Формат работы (работа в группах).
+                С кем вы работаете — 18+
+            </p>
+            <div style="text-align:center;cursor: default;">
+                позвонить:
+            </div>
+            <div style="text-align:center;">
+                <a href="tel:89133733610">8 913 373 3610</a>
+            </div>
+            <div style="text-align:center;cursor: default;">
+                написать:
+            </div>
+            <ul class="social-icons">
+                <li><a class="social-icon-vk" href="https://vk.me/chernykhanna77" title="ВКонтакте" target="_blank" rel="noopener"></a></li>
+                <li><a class="social-icon-telegram" href="https://t.me/Anyachernykh" title="Telegram" target="_blank" rel="noopener"></a></li>
+            </ul>
+            <div class="contact_form_wrapper">
+                <div class="contact_form">
+                    <form action="/contact" method="post">
+                        <input class="contact_form_input" type="text" name="first_name" placeholder="имя" value="">
+                        <input class="contact_form_input" type="text" name="last_name" placeholder="фамилия" value="">
+                        <input class="contact_form_input" type="email" name="e-mail" placeholder="e-mail" value="">
+                        <input class="contact_form_url" type="text" name="url" value="/tests/i.2">
+                        <input class="contact_form_input" type="submit" value="отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer style="display: flex;justify-content: center;">
+            <div style="margin-right: 20px;">
+                <div style="text-align:center;cursor: default;">
+                    позвонить:
+                </div>
+                <div style="text-align:center;">
+                    <a href="tel:89133733610">8 913 373 3610</a>
+                </div>
+            </div>
+            <div>
+                <div class="social_links">
+                    <div style="text-align:center;cursor: default;">
+                        написать:
+                    </div>
+                    <ul class="social-icons">
+                        <li><a class="social-icon-vk" href="https://vk.me/chernykhanna77" title="ВКонтакте" target="_blank" rel="noopener"></a></li>
+                        <li><a class="social-icon-telegram" href="https://t.me/Anyachernykh" title="Telegram" target="_blank" rel="noopener"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

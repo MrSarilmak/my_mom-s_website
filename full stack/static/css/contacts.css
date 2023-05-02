@@ -1,0 +1,22 @@
+
+.applications{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.application{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.application p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.application:last-child{
+    margin-bottom: 0px;
+}

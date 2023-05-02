@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Главная</title>
+        <link rel="stylesheet" href="/static/css/tests_base.css">
+        <link rel="stylesheet" href="/static/css/index.css">
+    </head>
+    <body>
+        <header>
+            <a class="logo_link" href="/2"><img src="/static/img/logo1.png" alt="logo/to index"></a>
+            <a class="btn_link" href="#about_me">обо мне</a>
+            <a class="btn_link" href="#services">услуги</a>
+        </header>
+        <div class="body">
+            <div style="background-color: silver;">1. Анна Черных, образование, <img src="" alt=" фото дипломов и сертификатов">, стаж.</div>
+            <div style="background-color: silver;">
+                2. Услуги и стоимость: специализация, проблемы, по которым вы консультируете.
+                Формат работы (индивидуальная, работа в группах).
+                С кем вы работаете — 18+
+            </div>
+            <div class="contact_form">
+                <form action="/contact" method="post">
+                    <input class="contact_form_input" type="text" placeholder="имя" value="">
+                    <input class="contact_form_input" type="text" placeholder="фамилия" value="">
+                    <input class="contact_form_input" type="email" placeholder="e-mail" value="">
+                    <input class="contact_form_url" type="text" name="url" value="/tests/i2.2">
+                    <input class="contact_form_input" type="submit" value="отправить">
+                </form>
+            </div>
+            <div style="text-align:center;cursor: default;">
+                позвонить:
+            </div>
+            <div style="text-align:center;">
+                <a href="tel:89133733610">8 913 373 3610</a>
+            </div>
+            <div style="text-align:center;cursor: default;">
+                написать:
+            </div>
+            <ul class="social-icons">
+                <li><a class="social-icon-vk" href="https://vk.me/chernykhanna77" title="ВКонтакте" target="_blank" rel="noopener"></a></li>
+                <li><a class="social-icon-telegram" href="https://t.me/Anyachernykh" title="Telegram" target="_blank" rel="noopener"></a></li>
+            </ul>
+        </div>
+        <footer>
+            <div style="margin-right: 20px;">
+                [pass]
+            </div>
+        </footer>
+    </body>
+</html>
